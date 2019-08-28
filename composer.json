@@ -1,0 +1,28 @@
+{
+  "name": "jiechengyang/iSecureCenter",
+  "description":  "基于Yii2实现海康威视综合安防管理平台开放api",
+  "keywords": ["jiechengyang", "php", "Yii2", "hikvision", "hk", "open-api", "iSecureCenter", "artemis-http-client"],
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Jiecheng Yang",
+      "email": "yangjiecheng1995@163.com",
+      "homepage": "https://github.com/jiechengyang",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": ">=2.0.13",
+    "yiisoft/yii2-httpclient": "^2.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "jcore\\iSecureCenter\\": "src/"
+    }
+  }
+}
