@@ -5,7 +5,12 @@
 ===============================
 
 [![Latest Stable Version](https://poser.pugx.org/jiechengyang/i-secure-center/v/stable)](https://packagist.org/packages/jiechengyang/i-secure-center)
-
+[![Total Downloads](https://poser.pugx.org/jiechengyang/i-secure-center/downloads)](https://packagist.org/packages/jiechengyang/i-secure-center)
+[![Latest Unstable Version](https://poser.pugx.org/jiechengyang/i-secure-center/v/unstable)](https://packagist.org/packages/jiechengyang/i-secure-center)
+[![License](https://poser.pugx.org/jiechengyang/i-secure-center/license)](https://packagist.org/packages/jiechengyang/i-secure-center)
+[![Monthly Downloads](https://poser.pugx.org/jiechengyang/i-secure-center/d/monthly)](https://packagist.org/packages/jiechengyang/i-secure-center)
+[![Daily Downloads](https://poser.pugx.org/jiechengyang/i-secure-center/d/daily)](https://packagist.org/packages/jiechengyang/i-secure-center)
+[![composer.lock](https://poser.pugx.org/jiechengyang/i-secure-center/composerlock)](https://packagist.org/packages/jiechengyang/i-secure-center)
 安装
 ---------------
 1. 使用composer
