@@ -1,7 +1,7 @@
 {
-  "name": "jiechengyang/iSecureCenter",
+  "name": "jiechengyang/i-secure-center",
   "description":  "基于Yii2实现海康威视综合安防管理平台开放api",
-  "keywords": ["jiechengyang", "php", "Yii2", "hikvision", "hk", "open-api", "iSecureCenter", "artemis-http-client"],
+  "keywords": ["jiechengyang", "php", "Yii2", "hikvision", "hk", "open-api", "i-secure-center", "iSecureCenter", "artemis-http-client"],
   "license": "Apache-2.0",
   "authors": [
     {
