@@ -34,6 +34,7 @@ iSecureCenter是作为一个组件提供服务的，所以得配置yii2 cdn组�
 
 说明
 -------------
-yii2-iSecureCenter 集成了[https://open.hikvision.com]的常用接口，采用组件的形式主要为了实现参数可配置，事件化处理业务。
+yii2-iSecureCenter 集成了[https://open.hikvision.com]
+常用接口，采用组件的形式主要为了实现参数可配置，事件化处理业务。
 
 **_目前组件还在完善中...._**
