@@ -4,6 +4,8 @@
 
 ===============================
 
+[![Latest Stable Version](https://poser.pugx.org/jiechengyang/i-secure-center/v/stable)](https://packagist.org/packages/jiechengyang/i-secure-center)
+
 安装
 ---------------
 1. 使用composer
