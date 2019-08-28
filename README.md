@@ -24,8 +24,8 @@
 
 配置
 -------------
-i-secure-center是作为一个组件提供服务的，所以得配置yii2 cdn组件。打开common/config/main.php在components块内增加
-见[config/main.php](config/main.php)
+i-secure-center是作为一个组件提供服务的，所以得配置yii2 iSecureCenter组件。打开common/config/main.php在components块内增加如下配置：
+配置见[config/main.php](config/main.php)
 
 示例
 -------------
