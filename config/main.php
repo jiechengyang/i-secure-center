@@ -8,7 +8,7 @@
 
 return [
     'components' => [
-        'iSecureCenter' => [
+        'i-secure-center' => [
             'class' => \jcore\iSecureCenter\iSecureCenter::class,
             'version' => 'iSecure Center V1.1.0',
             'host' => 'https://192.168.32.13/',//your self host

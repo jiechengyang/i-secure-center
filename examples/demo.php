@@ -7,7 +7,7 @@
  * Time: 下午 14:50
  */
 
-$iSecureCenter = \Yii::$app->get('iSecureCenter');
+$iSecureCenter = \Yii::$app->get('i-secure-center');
 
 //TODO: beforeSend 写入你的业务代码
 $iSecureCenter->on(\jcore\iSecureCenter::EVENT_BEFORE_SEND, function($event) {

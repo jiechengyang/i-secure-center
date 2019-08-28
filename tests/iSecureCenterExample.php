@@ -16,7 +16,7 @@ final class iSecureCenterExample extends TestCase
 {
     public function testCannotBeShow()
     {
-        $this->expectOutputString(Yii::$app->get('iSecureCenter')->hasMethod('send'));
-        print Yii::$app->get('iSecureCenter')->hasMethod('send');
+        $this->expectOutputString(Yii::$app->get('i-secure-center')->hasMethod('send'));
+        print Yii::$app->get('i-secure-center')->hasMethod('send');
     }
 }

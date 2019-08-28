@@ -10,21 +10,21 @@
      composer的安装以及国内镜像设置请点击[此处](http://www.phpcomposer.com/)
      
      ```bash
-     $ cd /path/to/iSecureCenter
-     $ composer require "jiechengyang/iSecureCenter"
+     $ cd /path/to/i-secure-center
+     $ composer require "jiechengyang/i-secure-center"
      $ composer install -vvv
      ```
 2. 手动导入
-    下载iSecureCenter包后放置在任意目录
+    下载i-secure-center包后放置在任意目录
     然后在yii2 index.php中
     ```php
-       require "/path/to/iSecureCenter/autoload.php";
+       require "/path/to/i-secure-center/autoload.php";
     ```
  
 
 配置
 -------------
-iSecureCenter是作为一个组件提供服务的，所以得配置yii2 cdn组件。打开common/config/main.php在components块内增加
+i-secure-center是作为一个组件提供服务的，所以得配置yii2 cdn组件。打开common/config/main.php在components块内增加
 见[config/main.php](config/main.php)
 
 示例
