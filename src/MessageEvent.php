@@ -3,8 +3,8 @@
 /**
  * Created by PhpStorm.
  * User: Yangjiecheng
- * Date: 2019/8/28 0028
- * Time: 下午 14:34
+ * Date: 2019/8/27 0027
+ * Time: 下午 16:09
  */
 
 namespace jcore\iSecureCenter;
@@ -13,11 +13,11 @@ use yii\base\Event;
 
 class MessageEvent extends Event
 {
-    public $url;
+    public $partner;
 
-    public $method;
+    public $apiClass;
 
-    public $message;
+    public $action;
 
     public $response;
 

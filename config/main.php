@@ -11,10 +11,19 @@ return [
         'i-secure-center' => [
             'class' => \jcore\iSecureCenter\iSecureCenter::class,
             'version' => 'iSecure Center V1.1.0',
-            'host' => 'https://192.168.32.13/',//your self host
-            'ak' => [
-                'hikvideo_icenter_appkey' => '',//api网关配置合作方 合作方appkey
-                'hikvideo_icenter_secret' => '',//api网关配置合作方 合作方secret
+            'host' => 'https://118.122.120.57:10443',
+            'artemisPath' => '/artemis',
+            'requestTimeout' => 10,
+            'partners' => [
+                //TODO: 多合作方配置 改成自己的
+                'adminPartner' => [
+                    'hikvideo_icenter_appkey' => '11111',
+                    'hikvideo_icenter_secret' => '22222',
+                ],
+                'TestPartner' => [
+                    'hikvideo_icenter_appkey' => '33333',
+                    'hikvideo_icenter_secret' => '44444',
+                ]
             ],
             'on beforeSend' => function ($event) {
                 //TODO: 接口发送前事件
