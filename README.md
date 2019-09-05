@@ -1,6 +1,6 @@
 # iSecureCenter
 
-基于yii2开发的海康威视开发平台api接口组件，目前组件封装了资源接口和视频接口，后续打算把全部接口封装。
+基于yii2开发的海康威视综合安防平台V1.3api接口组件，目前组件封装了资源接口和视频接口，后续打算把全部接口封装。
 
 ===============================
 
@@ -145,8 +145,13 @@ abstract class BaseApi
 i-secure-center是作为一个组件提供服务的，所以得配置yii2 iSecureCenter组件。打开common/config/main.php在components块内增加如下配置：
 配置见[config/main.php](config/main.php)
 
-参数说明
+http-client说明
 -------------
+yii2的http-client默认使用php的stream扩展，如果使用curl,则在实例化之后$client->setTransport("yii\httpclient\CurlTransport")即可。如果需要跳过ssl证书检测则->setOptions([
+                CURLOPT_SSL_VERIFYPEER  => false,
+                CURLOPT_SSL_VERIFYHOST  => false,
+            ])
+            
 示例
 -------------
 见[examples/demo.php](examples/demo.php)
