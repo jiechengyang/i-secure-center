@@ -11,7 +11,7 @@ return [
         'i-secure-center' => [
             'class' => \jcore\iSecureCenter\iSecureCenter::class,
             'version' => 'iSecure Center V1.1.0',
-            'host' => 'https://118.122.120.57:10443',
+            'host' => 'https://127.0.0.1',
             'artemisPath' => '/artemis',
             'requestTimeout' => 10,
             'partners' => [
