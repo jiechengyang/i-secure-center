@@ -68,7 +68,7 @@ class ArtemisHttpClient extends Client
                     ];
                 } else {
                     $res = [
-                        'code' => 1001,
+                        'code' => 1000,
                         'message' => Error::errMsg($data['code']),
                         'data' => $data['data']
                     ];
